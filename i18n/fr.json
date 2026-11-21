@@ -1,0 +1,96 @@
+{
+  "lang_name": "Français",
+  "title": "PawShelf : une étagère glisser-déposer pour votre Mac, gardée par un petit compagnon",
+  "description": "Un petit personnage pointe le bout de son nez au bord de l’écran de votre Mac et garde fichiers, dossiers, images, liens et textes pendant que vous passez d’une app à l’autre.",
+  "nav_home": "Accueil",
+  "nav_support": "Assistance",
+  "nav_privacy": "Politique de confidentialité",
+  "language": "Langue",
+
+  "hero_h1": "Confiez-le au chat. Reprenez-le plus tard.",
+  "hero_p": "PawShelf est une étagère pour votre Mac. Un petit personnage pointe le bout de son nez au bord de l’écran et garde fichiers, dossiers, images, liens et textes pendant que vous passez d’une app à l’autre.",
+  "cta_soon": "Bientôt sur le Mac App Store",
+  "cta_download": "Télécharger sur le Mac App Store",
+  "requirements": "Pour macOS 14 ou version ultérieure, sur les Mac avec puce Apple ou processeur Intel.",
+
+  "demo_label": "PawShelf tel qu’il apparaît à l’écran",
+  "video_pause": "Mettre la vidéo en pause",
+  "video_play": "Lire la vidéo",
+
+  "how_h2": "Comment ça marche",
+  "steps": [
+    ["Déposez-le sur l’onglet", "Faites glisser n’importe quoi sur le personnage au bord de l’écran. Trop loin du bord ? Secouez le pointeur pendant le glissement et l’étagère s’ouvre juste à côté."],
+    ["Continuez votre travail", "Changez d’app, de Space ou de fenêtre en plein écran. L’onglet reste au bord, et vos éléments sont toujours là après un redémarrage."],
+    ["Faites-le glisser dehors", "Déposez les éléments dans le Finder, Mail, une discussion ou un formulaire d’envoi. Sélectionnez-en plusieurs pour les sortir ensemble."]
+  ],
+
+  "chars_h2": "Choisissez qui garde vos affaires",
+  "chars_p": "Douze personnages, chacun avec sa façon de garder les choses. Certaines habitudes sont vraiment utiles : les joues du hamster montrent à quel point l’étagère est pleine, l’écureuil signale les éléments oubliés et la glace du pingouin fait fondre ceux dont vous n’avez plus besoin.",
+  "chars_hint": "Survolez un autocollant pour dire bonjour.",
+
+  "features_h2": "Tout ce qu’une étagère doit savoir faire",
+  "features": [
+    ["Historique du presse-papiers", "Vos 50 dernières copies, directement sur l’étagère. Les copies que les gestionnaires de mots de passe marquent comme privées ne sont jamais enregistrées."],
+    ["Collecter les nouveaux fichiers", "Choisissez un dossier comme Captures d’écran ou Téléchargements, et les nouveaux fichiers arrivent tout seuls sur l’étagère."],
+    ["Rechercher dans les images", "Retrouvez une capture d’écran grâce aux mots qu’elle contient. Le texte est reconnu sur votre Mac."],
+    ["Titres et icônes des liens", "Les liens affichent le titre et l’icône de la page, pas seulement une adresse."],
+    ["Retirés récemment", "Retiré par erreur ? Récupérez-le depuis le menu ⋯ de l’étagère."],
+    ["Aperçu et partage", "Appuyez sur la barre d’espace pour Coup d’œil, ou envoyez des éléments par AirDrop et Messages."],
+    ["Collections", "Regroupez les éléments liés en collections et affichez-en une à la fois."],
+    ["Sur tous les Spaces", "L’onglet vous suit sur tous les Spaces et reste au-dessus des apps en plein écran, sur le bord gauche ou droit."],
+    ["Prêt pour VoiceOver", "Chaque bouton et chaque élément de l’étagère a une étiquette VoiceOver."]
+  ],
+
+  "promise_h2": "Rien à autoriser dans les Réglages Système",
+  "promise_p": "PawShelf ne demande ni l’accès Accessibilité ni l’enregistrement de l’écran. Il fonctionne dans l’App Sandbox et n’ouvre que ce que vous lui confiez. Ce que vous posez sur l’étagère reste sur votre Mac.",
+  "promise_link": "Lire la politique de confidentialité",
+
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "updated": "Dernière mise à jour : 21 novembre 2026",
+    "intro": "PawShelf est conçu pour garder vos affaires sur votre Mac. Cette politique explique ce que l’app enregistre, ce qu’elle envoie et comment désactiver l’envoi.",
+    "sections": [
+      ["Ce qui reste sur votre Mac", [
+        "Tout ce que vous posez sur l’étagère reste sur votre Mac : les liens vers vos fichiers, les copies des images, textes et liens web que vous déposez, votre historique du presse-papiers et vos réglages. Ils sont enregistrés dans le sandbox de l’app. Nous n’exploitons aucun serveur qui les reçoit et nous ne pouvons pas les voir."
+      ]],
+      ["Rapports de plantage et statistiques d’utilisation anonymes", [
+        "Pour détecter les plantages et savoir quelles fonctionnalités sont utilisées, l’app envoie des rapports anonymes via Google Firebase (Crashlytics et Google Analytics for Firebase). Un rapport contient des noms d’événements comme « éléments ajoutés », des nombres, des valeurs de réglages, des détails de plantage, la version de l’app, la version de macOS et le modèle de Mac. Firebase attribue aussi un identifiant aléatoire à l’installation de l’app.",
+        "Les rapports ne contiennent jamais de noms de fichiers, de chemins de dossiers, de liens, de titres de pages, de texte copié ni quoi que ce soit d’autre que vous posez sur l’étagère.",
+        "L’envoi est activé à la première ouverture de l’app. Pour le désactiver, allez dans Réglages › Général et désactivez « Envoyer des rapports de plantage et des statistiques d’utilisation anonymes ». Google décrit son traitement de ces données sur {firebase} et {google}."
+      ]],
+      ["Titres et icônes des liens", [
+        "Lorsque vous ajoutez un lien web, l’app charge cette page depuis votre Mac pour afficher son titre et son icône, comme le ferait un navigateur. Le site voit une visite ordinaire. Pour désactiver cette fonction, allez dans Réglages › Avancé et désactivez « Afficher les titres et icônes des liens (charge la page) »."
+      ]],
+      ["Texte dans les images", [
+        "Le texte des images est reconnu par la reconnaissance de texte d’Apple, directement sur l’appareil. Les images ne sont envoyées nulle part. Pour désactiver cette fonction, allez dans Réglages › Avancé et désactivez « Rechercher le texte des images (traitement sur ce Mac) »."
+      ]],
+      ["Historique du presse-papiers", [
+        "L’historique du presse-papiers conserve vos 50 dernières copies sur votre Mac. Les copies que les gestionnaires de mots de passe marquent comme privées ne sont pas enregistrées. Pour le désactiver, ouvrez les Réglages et désactivez « Garder un historique de ce que vous copiez »."
+      ]],
+      ["Ce que nous ne faisons pas", [
+        "Pas de compte, pas de publicité, pas de vente ni de partage de vos données à des fins publicitaires, et aucun suivi à travers d’autres apps ou sites web. PawShelf ne demande ni l’accès Accessibilité ni l’enregistrement de l’écran."
+      ]],
+      ["Ce site web", [
+        "Ce site web ne dépose aucun cookie, n’utilise aucun outil d’analyse et ne charge rien depuis d’autres sites. L’hébergeur peut conserver des journaux de serveur habituels."
+      ]],
+      ["Contact", [
+        "Questions sur la confidentialité : {email}. Si cette politique change, la date en haut indique la version la plus récente."
+      ]]
+    ],
+    "note": "Cette politique a été rédigée en anglais. En cas de différence entre une traduction et la version anglaise, la version anglaise prévaut."
+  },
+
+  "support": {
+    "title": "Assistance",
+    "intro": "Écrivez à {email} et nous vous aiderons. Indiquez votre version de macOS et ce que vous faisiez quand le problème est survenu.",
+    "faq_h2": "Questions fréquentes",
+    "faq": [
+      ["Je ne vois pas l’onglet.", "Cliquez sur l’icône de patte dans la barre des menus et choisissez « Afficher l’onglet ». Si l’onglet disparaît seulement quand une app est en plein écran, allez dans Réglages › Onglet et étagère et désactivez « Masquer l’onglet lorsqu’une app est en plein écran »."],
+      ["PawShelf déplace-t-il ou modifie-t-il mes fichiers ?", "Poser un fichier sur l’étagère ne le déplace pas. L’étagère garde un lien et l’original reste à sa place. Renommer un élément ne change que son nom sur l’étagère. Si l’original est déplacé ou supprimé, l’étagère l’indique."],
+      ["J’ai retiré quelque chose par erreur.", "Ouvrez l’étagère, cliquez sur le bouton ⋯ et choisissez « Retirés récemment ». La même liste se trouve dans le menu de l’icône de patte, dans la barre des menus."],
+      ["Pourquoi PawShelf ne demande-t-il pas l’accès Accessibilité ?", "Il détecte les glissements grâce à des événements macOS standard qui ne nécessitent aucune autorisation particulière. Il n’a accès ni à votre clavier ni à votre écran."],
+      ["Comment désactiver les rapports de plantage et les statistiques d’utilisation ?", "Allez dans Réglages › Général et désactivez « Envoyer des rapports de plantage et des statistiques d’utilisation anonymes ». La politique de confidentialité indique exactement ce qui est envoyé."],
+      ["Comment désinstaller PawShelf ?", "Cliquez sur l’icône de patte dans la barre des menus, choisissez « Quitter PawShelf », puis placez PawShelf du dossier Applications dans la Corbeille."]
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "lang_name": "Português (Portugal)",
+  "title": "PawShelf: uma prateleira de arrastar e largar para o seu Mac, guardada por um pequeno amigo",
+  "description": "Uma pequena personagem espreita da margem do ecrã do seu Mac e guarda ficheiros, pastas, imagens, ligações e texto enquanto muda de app.",
+  "nav_home": "Início",
+  "nav_support": "Suporte",
+  "nav_privacy": "Política de privacidade",
+  "language": "Idioma",
+
+  "hero_h1": "Deixe com o gato. Volte a buscá-lo depois.",
+  "hero_p": "O PawShelf é uma prateleira para o seu Mac. Uma pequena personagem espreita da margem do ecrã e guarda ficheiros, pastas, imagens, ligações e texto enquanto muda de app.",
+  "cta_soon": "Brevemente na Mac App Store",
+  "cta_download": "Descarregar na Mac App Store",
+  "requirements": "Para macOS 14 ou posterior, em Macs com Apple silicon e Intel.",
+
+  "demo_label": "O aspeto do PawShelf no seu ecrã",
+  "video_pause": "Pausar vídeo",
+  "video_play": "Reproduzir vídeo",
+
+  "how_h2": "Como funciona",
+  "steps": [
+    ["Largue no separador", "Arraste o que quiser para a personagem na margem do ecrã. Está longe da margem? Abane o cursor enquanto arrasta e a prateleira abre mesmo ao lado."],
+    ["Continue a trabalhar", "Mude de app, de Space ou de janela em ecrã completo. O separador fica na margem e os seus elementos continuam lá depois de reiniciar."],
+    ["Arraste para fora", "Largue os elementos no Finder, no Mail, num chat ou num formulário de carregamento. Selecione vários para os arrastar em conjunto."]
+  ],
+
+  "chars_h2": "Escolha quem guarda as suas coisas",
+  "chars_p": "Doze personagens, cada uma com a sua maneira de guardar as coisas. Alguns hábitos fazem trabalho a sério: as bochechas do hamster mostram quão cheia está a prateleira, o esquilo avisa-o dos elementos esquecidos e o gelo do pinguim derrete os elementos de que já não precisa.",
+  "chars_hint": "Passe o ponteiro sobre um autocolante para dizer olá.",
+
+  "features_h2": "Tudo o que uma prateleira deve fazer",
+  "features": [
+    ["Histórico da área de transferência", "As suas últimas 50 cópias ficam na prateleira. As cópias que os gestores de palavras-passe marcam como privadas nunca são registadas."],
+    ["Recolher ficheiros novos", "Escolha uma pasta como Capturas de ecrã ou Transferências, e os ficheiros novos aparecem sozinhos na prateleira."],
+    ["Pesquisar dentro de imagens", "Encontre uma captura de ecrã pelas palavras que contém. O texto é reconhecido no seu Mac."],
+    ["Títulos e ícones das ligações", "As ligações mostram o título e o ícone da página, não apenas um endereço."],
+    ["Removidos recentemente", "Removeu algo por engano? Recupere-o no menu ⋯ da prateleira."],
+    ["Pré-visualizar e partilhar", "Prima a barra de espaço para a Visualização rápida ou envie elementos por AirDrop e Mensagens."],
+    ["Coleções", "Agrupe elementos relacionados em coleções e mostre uma de cada vez."],
+    ["Em todos os Spaces", "O separador acompanha-o em todos os Spaces e fica por cima das apps em ecrã completo, na margem esquerda ou direita."],
+    ["Pronto para o VoiceOver", "Cada botão e elemento da prateleira tem uma etiqueta do VoiceOver."]
+  ],
+
+  "promise_h2": "Nada para autorizar nas Definições do Sistema",
+  "promise_p": "O PawShelf não pede permissão de Acessibilidade nem de Gravação do ecrã. Funciona na App Sandbox e só abre o que lhe entrega. O que coloca na prateleira fica no seu Mac.",
+  "promise_link": "Ler a política de privacidade",
+
+  "privacy": {
+    "title": "Política de privacidade",
+    "updated": "Última atualização: 21 de novembro de 2026",
+    "intro": "O PawShelf foi feito para manter as suas coisas no seu Mac. Esta política explica o que a app guarda, o que envia e como desativar o envio.",
+    "sections": [
+      ["O que fica no seu Mac", [
+        "Tudo o que coloca na prateleira fica no seu Mac: ligações para os seus ficheiros, cópias das imagens, textos e ligações web que larga, o histórico da área de transferência e as suas definições. São guardados dentro da sandbox da app. Não temos servidores que os recebam e não conseguimos vê-los."
+      ]],
+      ["Relatórios de falhas e estatísticas de utilização anónimos", [
+        "Para encontrar falhas e perceber que funcionalidades são usadas, a app envia relatórios anónimos através do Google Firebase (Crashlytics e Google Analytics for Firebase). Um relatório contém nomes de eventos como “elementos adicionados”, contagens, valores de definições, detalhes de falhas, a versão da app, a versão do macOS e o modelo do Mac. O Firebase atribui também um identificador aleatório à instalação da app.",
+        "Os relatórios nunca incluem nomes de ficheiros, caminhos de pastas, ligações, títulos de páginas, texto copiado nem qualquer outra coisa que coloque na prateleira.",
+        "O envio está ativado quando abre a app pela primeira vez. Para o desativar, vá a Definições › Geral e desative “Enviar relatórios de falhas e estatísticas de utilização anónimos”. A Google descreve como trata estes dados em {firebase} e {google}."
+      ]],
+      ["Títulos e ícones das ligações", [
+        "Quando adiciona uma ligação web, a app carrega essa página a partir do seu Mac para mostrar o título e o ícone, tal como um navegador faria. O site vê uma visita normal. Para desativar, vá a Definições › Avançado e desative “Mostrar títulos e ícones das ligações (carrega a página)”."
+      ]],
+      ["Palavras em imagens", [
+        "As palavras nas imagens são reconhecidas pelo reconhecimento de texto da Apple no próprio dispositivo. As imagens não são enviadas para lado nenhum. Para desativar, vá a Definições › Avançado e desative “Pesquisar palavras dentro de imagens (processado neste Mac)”."
+      ]],
+      ["Histórico da área de transferência", [
+        "O histórico da área de transferência guarda as suas últimas 50 cópias no seu Mac. As cópias que os gestores de palavras-passe marcam como privadas não são registadas. Para desativar, abra as Definições e desative “Manter um histórico do que copia”."
+      ]],
+      ["O que não fazemos", [
+        "Sem contas, sem anúncios, sem venda ou partilha dos seus dados para fins publicitários e sem rastreio noutras apps ou sites. O PawShelf não pede permissão de Acessibilidade nem de Gravação do ecrã."
+      ]],
+      ["Este site", [
+        "Este site não usa cookies, não executa ferramentas de análise e não carrega nada de outros sites. O fornecedor de alojamento pode manter registos habituais do servidor."
+      ]],
+      ["Contacto", [
+        "Questões sobre privacidade: {email}. Se esta política mudar, a data no topo indica a versão mais recente."
+      ]]
+    ],
+    "note": "Esta política foi escrita em inglês. Se uma tradução divergir da versão em inglês, prevalece a versão em inglês."
+  },
+
+  "support": {
+    "title": "Suporte",
+    "intro": "Escreva para {email} e nós ajudamos. Indique a sua versão do macOS e o que estava a fazer quando o problema aconteceu.",
+    "faq_h2": "Perguntas frequentes",
+    "faq": [
+      ["Não vejo o separador.", "Clique no ícone da pata na barra de menus e escolha “Mostrar o separador”. Se o separador só desaparece quando uma app está em ecrã completo, vá a Definições › Separador e prateleira e desative “Ocultar o separador quando uma app estiver em ecrã completo”."],
+      ["O PawShelf move ou altera os meus ficheiros?", "Colocar um ficheiro na prateleira não o move. A prateleira guarda uma ligação e o original fica onde está. Mudar o nome de um elemento só altera o nome na prateleira. Se o original for movido ou apagado, a prateleira mostra isso."],
+      ["Removi algo por engano.", "Abra a prateleira, clique no botão ⋯ e escolha “Removidos recentemente”. A mesma lista está no menu do ícone da pata na barra de menus."],
+      ["Porque é que o PawShelf não pede permissão de Acessibilidade?", "Deteta os arrastamentos através de eventos padrão do macOS que não exigem permissões especiais. Não tem acesso ao seu teclado nem ao seu ecrã."],
+      ["Como desativo os relatórios de falhas e as estatísticas de utilização?", "Vá a Definições › Geral e desative “Enviar relatórios de falhas e estatísticas de utilização anónimos”. A política de privacidade indica exatamente o que é enviado."],
+      ["Como desinstalo o PawShelf?", "Clique no ícone da pata na barra de menus, escolha “Sair do PawShelf” e mova o PawShelf da pasta Aplicações para o Lixo."]
+    ]
+  }
+}

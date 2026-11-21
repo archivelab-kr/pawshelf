@@ -1,0 +1,554 @@
+{
+ "hamster": {
+  "name": "Pouch Hamster",
+  "tagline": "Cheeks puff up as the shelf fills",
+  "loc": {
+   "ko": {
+    "name": "볼주머니 햄스터",
+    "tagline": "선반이 찰수록 볼이 빵빵해져요"
+   },
+   "ja": {
+    "name": "ほおぶくろハムスター",
+    "tagline": "シェルフがいっぱいになるほど、ほっぺがふくらみます"
+   },
+   "zh-Hans": {
+    "name": "囤囤仓鼠",
+    "tagline": "置物架越满，腮帮子越鼓"
+   },
+   "de": {
+    "name": "Backenhamster",
+    "tagline": "Je voller das Regal, desto dicker die Backen"
+   },
+   "es": {
+    "name": "Hámster Mofletudo",
+    "tagline": "Se le inflan los mofletes a medida que se llena el estante"
+   },
+   "fr": {
+    "name": "Hamster joufflu",
+    "tagline": "Ses joues gonflent à mesure que l’étagère se remplit"
+   },
+   "it": {
+    "name": "Criceto paffutello",
+    "tagline": "Le guance si gonfiano man mano che la mensola si riempie"
+   },
+   "nl": {
+    "name": "Wangzakhamster",
+    "tagline": "Zijn wangen bollen op naarmate de plank voller raakt"
+   },
+   "pt-BR": {
+    "name": "Hamster Bochechudo",
+    "tagline": "As bochechas incham conforme a prateleira enche"
+   },
+   "pt-PT": {
+    "name": "Hamster Bochechudo",
+    "tagline": "As bochechas incham à medida que a prateleira enche"
+   }
+  }
+ },
+ "boxCat": {
+  "name": "Box Cat",
+  "tagline": "Hides your things in a cardboard box",
+  "loc": {
+   "ko": {
+    "name": "상자 고양이",
+    "tagline": "골판지 상자에 물건을 숨겨 둬요"
+   },
+   "ja": {
+    "name": "箱入りネコ",
+    "tagline": "段ボール箱にものを隠しておきます"
+   },
+   "zh-Hans": {
+    "name": "纸箱猫",
+    "tagline": "把你的东西藏进纸箱里"
+   },
+   "de": {
+    "name": "Kistenkatze",
+    "tagline": "Versteckt deine Sachen in einem Pappkarton"
+   },
+   "es": {
+    "name": "Gato Cajita",
+    "tagline": "Esconde tus cosas en una caja de cartón"
+   },
+   "fr": {
+    "name": "Chaton carton",
+    "tagline": "Cache vos affaires dans un carton"
+   },
+   "it": {
+    "name": "Gatto nella scatola",
+    "tagline": "Nasconde le tue cose in una scatola di cartone"
+   },
+   "nl": {
+    "name": "Doospoes",
+    "tagline": "Verstopt je spullen in een kartonnen doos"
+   },
+   "pt-BR": {
+    "name": "Gato Caixinha",
+    "tagline": "Esconde suas coisas em uma caixa de papelão"
+   },
+   "pt-PT": {
+    "name": "Gato Caixinha",
+    "tagline": "Esconde as suas coisas numa caixa de cartão"
+   }
+  }
+ },
+ "mole": {
+  "name": "Burrow Mole",
+  "tagline": "Stores things in its burrow",
+  "loc": {
+   "ko": {
+    "name": "땅굴 두더지",
+    "tagline": "굴속에 물건을 보관해요"
+   },
+   "ja": {
+    "name": "あなほりモグラ",
+    "tagline": "巣穴にものをしまっておきます"
+   },
+   "zh-Hans": {
+    "name": "挖洞鼹鼠",
+    "tagline": "把东西藏进地洞里"
+   },
+   "de": {
+    "name": "Buddel-Maulwurf",
+    "tagline": "Bewahrt deine Sachen in seinem Bau auf"
+   },
+   "es": {
+    "name": "Topo Tunelero",
+    "tagline": "Guarda las cosas en su madriguera"
+   },
+   "fr": {
+    "name": "Taupe fouisseuse",
+    "tagline": "Range vos affaires dans son terrier"
+   },
+   "it": {
+    "name": "Talpa scavatrice",
+    "tagline": "Conserva le tue cose nella sua tana"
+   },
+   "nl": {
+    "name": "Graafmol",
+    "tagline": "Bewaart dingen in zijn hol"
+   },
+   "pt-BR": {
+    "name": "Toupeira Escavadeira",
+    "tagline": "Guarda as coisas na sua toca"
+   },
+   "pt-PT": {
+    "name": "Toupeira Escavadora",
+    "tagline": "Guarda as coisas na sua toca"
+   }
+  }
+ },
+ "kangaroo": {
+  "name": "Pocket Kangaroo",
+  "tagline": "Keeps things safe in its pouch",
+  "loc": {
+   "ko": {
+    "name": "주머니 캥거루",
+    "tagline": "배 주머니에 물건을 안전하게 넣어 둬요"
+   },
+   "ja": {
+    "name": "ポケットカンガルー",
+    "tagline": "おなかのポケットに、ものを大切にしまいます"
+   },
+   "zh-Hans": {
+    "name": "口袋袋鼠",
+    "tagline": "把东西稳稳地放在育儿袋里"
+   },
+   "de": {
+    "name": "Beutelkänguru",
+    "tagline": "Bewahrt deine Sachen sicher im Beutel auf"
+   },
+   "es": {
+    "name": "Canguro de Bolsillo",
+    "tagline": "Guarda las cosas a salvo en su bolsa"
+   },
+   "fr": {
+    "name": "Kangourou à poche",
+    "tagline": "Garde vos affaires à l’abri dans sa poche"
+   },
+   "it": {
+    "name": "Canguro tascabile",
+    "tagline": "Tiene le tue cose al sicuro nel marsupio"
+   },
+   "nl": {
+    "name": "Buidelkangoeroe",
+    "tagline": "Bewaart dingen veilig in zijn buidel"
+   },
+   "pt-BR": {
+    "name": "Canguru de Bolso",
+    "tagline": "Guarda as coisas em segurança na bolsa"
+   },
+   "pt-PT": {
+    "name": "Canguru de Bolso",
+    "tagline": "Guarda as coisas em segurança na sua bolsa"
+   }
+  }
+ },
+ "turtle": {
+  "name": "Shell Turtle",
+  "tagline": "Keeps things safe under its shell",
+  "loc": {
+   "ko": {
+    "name": "등껍질 거북이",
+    "tagline": "등껍질 아래에 물건을 지켜 둬요"
+   },
+   "ja": {
+    "name": "こうらガメ",
+    "tagline": "こうらの下で、ものを守ります"
+   },
+   "zh-Hans": {
+    "name": "硬壳乌龟",
+    "tagline": "把东西护在壳底下"
+   },
+   "de": {
+    "name": "Panzerschildkröte",
+    "tagline": "Schützt deine Sachen unter ihrem Panzer"
+   },
+   "es": {
+    "name": "Tortuga Caparazón",
+    "tagline": "Protege las cosas bajo su caparazón"
+   },
+   "fr": {
+    "name": "Tortue à carapace",
+    "tagline": "Protège vos affaires sous sa carapace"
+   },
+   "it": {
+    "name": "Tartaruga corazzata",
+    "tagline": "Protegge le tue cose sotto il suo guscio"
+   },
+   "nl": {
+    "name": "Schuilschildpad",
+    "tagline": "Bewaart dingen veilig onder zijn schild"
+   },
+   "pt-BR": {
+    "name": "Tartaruga Cascuda",
+    "tagline": "Protege as coisas debaixo do casco"
+   },
+   "pt-PT": {
+    "name": "Tartaruga Carapaça",
+    "tagline": "Protege as coisas debaixo da carapaça"
+   }
+  }
+ },
+ "octopus": {
+  "name": "Eight-arm Octopus",
+  "tagline": "Holds one thing in each arm",
+  "loc": {
+   "ko": {
+    "name": "여덟 팔 문어",
+    "tagline": "팔마다 하나씩 들고 있어요"
+   },
+   "ja": {
+    "name": "はちあしタコ",
+    "tagline": "それぞれの足でひとつずつ抱えます"
+   },
+   "zh-Hans": {
+    "name": "八爪章鱼",
+    "tagline": "每只触手各抱一样东西"
+   },
+   "de": {
+    "name": "Achtarm-Oktopus",
+    "tagline": "Hält in jedem Arm eine Sache"
+   },
+   "es": {
+    "name": "Pulpo Ochobrazos",
+    "tagline": "Sujeta una cosa con cada brazo"
+   },
+   "fr": {
+    "name": "Pieuvre à huit bras",
+    "tagline": "Tient un objet dans chaque bras"
+   },
+   "it": {
+    "name": "Polpo a otto braccia",
+    "tagline": "Tiene una cosa in ogni braccio"
+   },
+   "nl": {
+    "name": "Grijpgrage octopus",
+    "tagline": "Houdt in elke arm één ding vast"
+   },
+   "pt-BR": {
+    "name": "Polvo Oito Braços",
+    "tagline": "Segura uma coisa em cada braço"
+   },
+   "pt-PT": {
+    "name": "Polvo Oito Braços",
+    "tagline": "Segura uma coisa em cada braço"
+   }
+  }
+ },
+ "magpie": {
+  "name": "Shiny Magpie",
+  "tagline": "Collects shiny links and pictures",
+  "loc": {
+   "ko": {
+    "name": "반짝이 까치",
+    "tagline": "반짝이는 링크와 사진을 모아요"
+   },
+   "ja": {
+    "name": "キラキラカササギ",
+    "tagline": "キラキラしたリンクや写真を集めます"
+   },
+   "zh-Hans": {
+    "name": "闪闪喜鹊",
+    "tagline": "收集闪闪发亮的链接和图片"
+   },
+   "de": {
+    "name": "Glitzer-Elster",
+    "tagline": "Sammelt funkelnde Links und Bilder"
+   },
+   "es": {
+    "name": "Urraca Brillitos",
+    "tagline": "Colecciona enlaces e imágenes relucientes"
+   },
+   "fr": {
+    "name": "Pie scintillante",
+    "tagline": "Collectionne les liens et images qui brillent"
+   },
+   "it": {
+    "name": "Gazza luccicante",
+    "tagline": "Colleziona link e immagini luccicanti"
+   },
+   "nl": {
+    "name": "Glinsterekster",
+    "tagline": "Verzamelt glimmende links en afbeeldingen"
+   },
+   "pt-BR": {
+    "name": "Pega Brilhante",
+    "tagline": "Coleciona links e imagens brilhantes"
+   },
+   "pt-PT": {
+    "name": "Pega Brilhante",
+    "tagline": "Coleciona ligações e imagens brilhantes"
+   }
+  }
+ },
+ "pelican": {
+  "name": "Pelican",
+  "tagline": "Opens its big beak to catch drops",
+  "loc": {
+   "ko": {
+    "name": "펠리컨",
+    "tagline": "큰 부리를 벌려 떨어뜨린 물건을 받아요"
+   },
+   "ja": {
+    "name": "ペリカン",
+    "tagline": "大きなくちばしを開けて、ドロップされたものを受け止めます"
+   },
+   "zh-Hans": {
+    "name": "鹈鹕",
+    "tagline": "张开大嘴接住拖放过来的东西"
+   },
+   "de": {
+    "name": "Pelikan",
+    "tagline": "Öffnet seinen großen Schnabel, um Abgelegtes zu fangen"
+   },
+   "es": {
+    "name": "Pelícano",
+    "tagline": "Abre su gran pico para atrapar lo que sueltes"
+   },
+   "fr": {
+    "name": "Pélican",
+    "tagline": "Ouvre grand son bec pour attraper ce que vous déposez"
+   },
+   "it": {
+    "name": "Pellicano",
+    "tagline": "Apre il suo grande becco per afferrare ciò che lasci cadere"
+   },
+   "nl": {
+    "name": "Pelikaan",
+    "tagline": "Opent zijn grote snavel om neergezette dingen op te vangen"
+   },
+   "pt-BR": {
+    "name": "Pelicano",
+    "tagline": "Abre o bicão para pegar o que você soltar"
+   },
+   "pt-PT": {
+    "name": "Pelicano",
+    "tagline": "Abre o seu grande bico para apanhar o que largar"
+   }
+  }
+ },
+ "penguin": {
+  "name": "Ice Penguin",
+  "tagline": "Keeps things on ice until they melt away",
+  "loc": {
+   "ko": {
+    "name": "얼음 서랍 펭귄",
+    "tagline": "물건을 얼음에 보관하고, 시간이 지나면 녹아 사라져요"
+   },
+   "ja": {
+    "name": "こおりペンギン",
+    "tagline": "溶けてなくなるまで、ものを氷で冷やしておきます"
+   },
+   "zh-Hans": {
+    "name": "冰冰企鹅",
+    "tagline": "把东西冰镇起来，直到它们融化消失"
+   },
+   "de": {
+    "name": "Eisfach-Pinguin",
+    "tagline": "Legt deine Sachen auf Eis, bis sie wegschmelzen"
+   },
+   "es": {
+    "name": "Pingüino Nevera",
+    "tagline": "Guarda las cosas en hielo hasta que se derriten"
+   },
+   "fr": {
+    "name": "Pingouin des glaces",
+    "tagline": "Met vos affaires au frais jusqu’à ce qu’elles fondent"
+   },
+   "it": {
+    "name": "Pinguino dei ghiacci",
+    "tagline": "Tiene le tue cose in ghiaccio finché non si sciolgono"
+   },
+   "nl": {
+    "name": "IJspinguïn",
+    "tagline": "Bewaart dingen op ijs tot ze wegsmelten"
+   },
+   "pt-BR": {
+    "name": "Pinguim Geladeira",
+    "tagline": "Guarda as coisas no gelo até derreterem"
+   },
+   "pt-PT": {
+    "name": "Pinguim Frigorífico",
+    "tagline": "Guarda as coisas no gelo até derreterem"
+   }
+  }
+ },
+ "squirrel": {
+  "name": "Acorn Squirrel",
+  "tagline": "Remembers forgotten acorns and suggests a cleanup",
+  "loc": {
+   "ko": {
+    "name": "도토리 다람쥐",
+    "tagline": "잊힌 도토리를 기억했다가 정리를 제안해요"
+   },
+   "ja": {
+    "name": "どんぐりリス",
+    "tagline": "忘れられたどんぐりを覚えていて、片付けを提案します"
+   },
+   "zh-Hans": {
+    "name": "橡果松鼠",
+    "tagline": "记得被遗忘的橡果，并提醒你整理"
+   },
+   "de": {
+    "name": "Eichel-Eichhörnchen",
+    "tagline": "Merkt sich vergessene Eicheln und schlägt Aufräumen vor"
+   },
+   "es": {
+    "name": "Ardilla Bellotera",
+    "tagline": "Recuerda las bellotas olvidadas y sugiere hacer limpieza"
+   },
+   "fr": {
+    "name": "Écureuil à glands",
+    "tagline": "Se souvient des glands oubliés et propose un rangement"
+   },
+   "it": {
+    "name": "Scoiattolo delle ghiande",
+    "tagline": "Si ricorda delle ghiande dimenticate e propone di fare ordine"
+   },
+   "nl": {
+    "name": "Nootjeseekhoorn",
+    "tagline": "Onthoudt vergeten eikeltjes en stelt voor om op te ruimen"
+   },
+   "pt-BR": {
+    "name": "Esquilo Bolota",
+    "tagline": "Lembra das bolotas esquecidas e sugere uma arrumação"
+   },
+   "pt-PT": {
+    "name": "Esquilo Bolota",
+    "tagline": "Lembra-se das bolotas esquecidas e sugere uma arrumação"
+   }
+  }
+ },
+ "fetchDog": {
+  "name": "Fetch Dog",
+  "tagline": "Fetches your things back when you need them",
+  "loc": {
+   "ko": {
+    "name": "물어오는 강아지",
+    "tagline": "필요할 때 물건을 물어다 줘요"
+   },
+   "ja": {
+    "name": "とってこイヌ",
+    "tagline": "必要なときに、ものを持ってきてくれます"
+   },
+   "zh-Hans": {
+    "name": "叼叼狗",
+    "tagline": "需要时帮你把东西叼回来"
+   },
+   "de": {
+    "name": "Apportierhund",
+    "tagline": "Bringt dir deine Sachen, wenn du sie brauchst"
+   },
+   "es": {
+    "name": "Perro Recadero",
+    "tagline": "Te trae tus cosas cuando las necesitas"
+   },
+   "fr": {
+    "name": "Chien rapporteur",
+    "tagline": "Vous rapporte vos affaires quand vous en avez besoin"
+   },
+   "it": {
+    "name": "Cane da riporto",
+    "tagline": "Ti riporta le tue cose quando ti servono"
+   },
+   "nl": {
+    "name": "Apporteerhond",
+    "tagline": "Brengt je spullen terug wanneer je ze nodig hebt"
+   },
+   "pt-BR": {
+    "name": "Cachorro Buscador",
+    "tagline": "Traz suas coisas de volta quando você precisa"
+   },
+   "pt-PT": {
+    "name": "Cão Buscador",
+    "tagline": "Vai buscar as suas coisas quando precisa delas"
+   }
+  }
+ },
+ "owl": {
+  "name": "Night Owl",
+  "tagline": "Wide awake at night, sleepy by day",
+  "loc": {
+   "ko": {
+    "name": "밤 부엉이",
+    "tagline": "밤에는 또렷, 낮에는 꾸벅꾸벅"
+   },
+   "ja": {
+    "name": "よふかしフクロウ",
+    "tagline": "夜はぱっちり、昼はうとうと"
+   },
+   "zh-Hans": {
+    "name": "熬夜猫头鹰",
+    "tagline": "夜里精神抖擞，白天昏昏欲睡"
+   },
+   "de": {
+    "name": "Nachteule",
+    "tagline": "Nachts hellwach, tagsüber verschlafen"
+   },
+   "es": {
+    "name": "Búho Trasnochador",
+    "tagline": "Despierto de noche, dormilón de día"
+   },
+   "fr": {
+    "name": "Hibou noctambule",
+    "tagline": "Bien réveillé la nuit, endormi le jour"
+   },
+   "it": {
+    "name": "Gufo nottambulo",
+    "tagline": "Sveglio di notte, assonnato di giorno"
+   },
+   "nl": {
+    "name": "Nachtuil",
+    "tagline": "'s Nachts klaarwakker, overdag slaperig"
+   },
+   "pt-BR": {
+    "name": "Coruja Noturna",
+    "tagline": "Bem acordada à noite, sonolenta de dia"
+   },
+   "pt-PT": {
+    "name": "Coruja Noturna",
+    "tagline": "Bem acordada à noite, ensonada de dia"
+   }
+  }
+ }
+}

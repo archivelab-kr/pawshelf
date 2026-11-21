@@ -1,0 +1,96 @@
+{
+  "lang_name": "English",
+  "title": "PawShelf: a drag-and-drop shelf for your Mac, kept by a little friend",
+  "description": "A small character peeks out from the edge of your Mac screen and holds files, folders, images, links and text while you switch between apps.",
+  "nav_home": "Home",
+  "nav_support": "Support",
+  "nav_privacy": "Privacy policy",
+  "language": "Language",
+
+  "hero_h1": "Drop it on the cat. Pick it up later.",
+  "hero_p": "PawShelf is a shelf for your Mac. A small character peeks out from the edge of your screen and holds files, folders, images, links and text while you switch between apps.",
+  "cta_soon": "Coming soon to the Mac App Store",
+  "cta_download": "Download on the Mac App Store",
+  "requirements": "For macOS 14 or later, on Apple silicon and Intel Macs.",
+
+  "demo_label": "What PawShelf looks like on your screen",
+  "video_pause": "Pause video",
+  "video_play": "Play video",
+
+  "how_h2": "How it works",
+  "steps": [
+    ["Drop it on the tab", "Drag anything onto the character at the edge of your screen. Far from the edge? Shake the cursor while dragging, and the shelf opens right next to it."],
+    ["Carry on", "Switch apps, Spaces and full-screen windows. The tab stays at the edge, and your items are still there after a restart."],
+    ["Drag it out", "Drop items into Finder, Mail, a chat or an upload form. Select several to drag them out together."]
+  ],
+
+  "chars_h2": "Choose who keeps your things",
+  "chars_p": "Twelve characters, each with its own way of holding on to things. Some habits do real work: the hamster's cheeks show how full the shelf is, the squirrel points out forgotten items, and the penguin's ice melts away items you no longer need.",
+  "chars_hint": "Point at a sticker to say hello.",
+
+  "features_h2": "Everything a shelf should do",
+  "features": [
+    ["Clipboard history", "Your last 50 copies sit right on the shelf. Copies that password managers mark as private are never recorded."],
+    ["Collect new files", "Choose a folder such as Screenshots or Downloads, and new files land on the shelf by themselves."],
+    ["Search inside images", "Find a screenshot by the words in it. Text is recognized on your Mac."],
+    ["Link titles and icons", "Links show the page's title and icon, not just an address."],
+    ["Recently Removed", "Removed something by mistake? Bring it back from the ⋯ menu on the shelf."],
+    ["Preview and share", "Press Space for Quick Look, or send items with AirDrop and Messages."],
+    ["Collections", "Group related items and show one collection at a time."],
+    ["On every Space", "The tab follows you to every Space and sits above full-screen apps, on the left or right edge."],
+    ["Ready for VoiceOver", "Every button and item on the shelf has a VoiceOver label."]
+  ],
+
+  "promise_h2": "Nothing to allow in System Settings",
+  "promise_p": "PawShelf doesn't ask for Accessibility or Screen Recording permission. It runs in the App Sandbox and only opens what you hand it. What you put on the shelf stays on your Mac.",
+  "promise_link": "Read the privacy policy",
+
+  "privacy": {
+    "title": "Privacy policy",
+    "updated": "Last updated: November 21, 2026",
+    "intro": "PawShelf is built to keep your things on your Mac. This policy explains what the app stores, what it sends, and how to turn sending off.",
+    "sections": [
+      ["What stays on your Mac", [
+        "Everything you put on the shelf stays on your Mac: links to your files, copies of the images, text and web links you drop, your clipboard history and your settings. They are saved inside the app's sandbox. We don't run servers that receive them, and we can't see them."
+      ]],
+      ["Anonymous crash reports and usage statistics", [
+        "To find crashes and learn which features are used, the app sends anonymous reports through Google Firebase (Crashlytics and Google Analytics for Firebase). A report contains event names such as \"items added\", counts, setting values, crash details, the app version, the macOS version and the Mac model. Firebase also gives the app installation a random identifier.",
+        "Reports never include file names, folder paths, links, page titles, copied text or anything else you put on the shelf.",
+        "Sending is on when you first open the app. To turn it off, go to Settings › General and turn off \"Send anonymous crash reports and usage statistics\". Google describes how it handles this data at {firebase} and {google}."
+      ]],
+      ["Link titles and icons", [
+        "When you add a web link, the app loads that page from your Mac to show its title and icon, as a browser would. The website sees an ordinary visit. To turn this off, go to Settings › Advanced and turn off \"Show link titles and icons (fetches the page)\"."
+      ]],
+      ["Words in images", [
+        "Words in images are recognized with Apple's on-device text recognition. Images are not uploaded anywhere. To turn this off, go to Settings › Advanced and turn off \"Search words inside images (processed on this Mac)\"."
+      ]],
+      ["Clipboard history", [
+        "The clipboard history keeps your last 50 copies on your Mac. Copies that password managers mark as private are not recorded. To turn it off, open Settings and turn off \"Keep a history of what you copy\"."
+      ]],
+      ["What we don't do", [
+        "No accounts, no ads, no selling or sharing your data for advertising, and no tracking across other apps or websites. PawShelf doesn't ask for Accessibility or Screen Recording permission."
+      ]],
+      ["This website", [
+        "This website sets no cookies, runs no analytics and loads nothing from other sites. The hosting provider may keep standard server logs."
+      ]],
+      ["Contact", [
+        "Questions about privacy: {email}. If this policy changes, the date at the top shows the latest version."
+      ]]
+    ],
+    "note": "This policy was written in English. If a translation differs from the English version, the English version applies."
+  },
+
+  "support": {
+    "title": "Support",
+    "intro": "Write to {email} and we'll help. Please include your macOS version and what you were doing when the problem happened.",
+    "faq_h2": "Common questions",
+    "faq": [
+      ["I can't see the tab.", "Click the paw icon in the menu bar and choose Show the Tab. If the tab disappears only while an app is in full screen, go to Settings › Tab and shelf and turn off \"Hide the tab while an app is in full screen\"."],
+      ["Does PawShelf move or change my files?", "Putting a file on the shelf doesn't move it. The shelf keeps a link, and the original stays where it is. Renaming an item only changes its name on the shelf. If the original is moved or deleted, the shelf shows that."],
+      ["I removed something by mistake.", "Open the shelf, click the ⋯ button and choose Recently Removed. The same list is in the paw icon menu in the menu bar."],
+      ["Why doesn't PawShelf ask for Accessibility permission?", "It notices drags through standard macOS events that need no special permission. It has no access to your keyboard or your screen."],
+      ["How do I turn off crash reports and usage statistics?", "Go to Settings › General and turn off \"Send anonymous crash reports and usage statistics\". The privacy policy lists exactly what is sent."],
+      ["How do I uninstall PawShelf?", "Click the paw icon in the menu bar, choose Quit PawShelf, then move PawShelf from the Applications folder to the Trash."]
+    ]
+  }
+}

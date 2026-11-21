@@ -1,0 +1,96 @@
+{
+  "lang_name": "Nederlands",
+  "title": "PawShelf: een plank voor slepen en neerzetten op je Mac, bewaakt door een klein vriendje",
+  "description": "Een klein figuurtje gluurt om de rand van je Mac-scherm en bewaart bestanden, mappen, afbeeldingen, links en tekst terwijl je tussen apps wisselt.",
+  "nav_home": "Home",
+  "nav_support": "Ondersteuning",
+  "nav_privacy": "Privacybeleid",
+  "language": "Taal",
+
+  "hero_h1": "Geef het aan de kat. Pak het later terug.",
+  "hero_p": "PawShelf is een plank voor je Mac. Een klein figuurtje gluurt om de rand van je scherm en bewaart bestanden, mappen, afbeeldingen, links en tekst terwijl je tussen apps wisselt.",
+  "cta_soon": "Binnenkort in de Mac App Store",
+  "cta_download": "Download in de Mac App Store",
+  "requirements": "Voor macOS 14 of nieuwer, op Macs met Apple silicon en Intel.",
+
+  "demo_label": "Zo ziet PawShelf eruit op je scherm",
+  "video_pause": "Video pauzeren",
+  "video_play": "Video afspelen",
+
+  "how_h2": "Zo werkt het",
+  "steps": [
+    ["Zet het op de tab", "Sleep van alles naar het figuurtje aan de rand van je scherm. Ver van de rand? Schud tijdens het slepen met de aanwijzer en de plank gaat er vlak naast open."],
+    ["Ga gewoon door", "Wissel van app, Space of schermvullend venster. De tab blijft aan de rand en je onderdelen zijn er na een herstart nog steeds."],
+    ["Sleep het eruit", "Zet onderdelen neer in de Finder, Mail, een chat of een uploadformulier. Selecteer er meerdere om ze samen eruit te slepen."]
+  ],
+
+  "chars_h2": "Kies wie op je spullen past",
+  "chars_p": "Twaalf figuurtjes, elk met een eigen manier om dingen te bewaren. Sommige gewoontes doen echt werk: aan de wangen van de hamster zie je hoe vol de plank is, de eekhoorn wijst je op vergeten onderdelen en het ijs van de pinguïn laat onderdelen die je niet meer nodig hebt wegsmelten.",
+  "chars_hint": "Wijs een sticker aan om hallo te zeggen.",
+
+  "features_h2": "Alles wat een plank moet kunnen",
+  "features": [
+    ["Klembordgeschiedenis", "Je laatste 50 kopieën liggen direct op de plank. Kopieën die wachtwoordbeheerders als privé markeren, worden nooit bewaard."],
+    ["Nieuwe bestanden verzamelen", "Kies een map zoals Schermafbeeldingen of Downloads, en nieuwe bestanden komen vanzelf op de plank."],
+    ["Zoeken in afbeeldingen", "Vind een schermafbeelding aan de woorden die erin staan. De tekst wordt op je Mac herkend."],
+    ["Titels en symbolen van links", "Links tonen de titel en het symbool van de pagina, niet alleen een adres."],
+    ["Recent verwijderd", "Per ongeluk iets verwijderd? Haal het terug via het ⋯-menu van de plank."],
+    ["Voorvertoning en delen", "Druk op de spatiebalk voor Snelle weergave of stuur onderdelen met AirDrop en Berichten."],
+    ["Collecties", "Groepeer bij elkaar horende onderdelen in collecties en toon er één tegelijk."],
+    ["Op elke Space", "De tab volgt je naar elke Space en ligt boven schermvullende apps, aan de linker- of rechterrand."],
+    ["Klaar voor VoiceOver", "Elke knop en elk onderdeel op de plank heeft een VoiceOver-label."]
+  ],
+
+  "promise_h2": "Niets toe te staan in Systeeminstellingen",
+  "promise_p": "PawShelf vraagt niet om toegang tot Toegankelijkheid of Schermopname. Het draait in de App Sandbox en opent alleen wat jij het geeft. Wat je op de plank legt, blijft op je Mac.",
+  "promise_link": "Lees het privacybeleid",
+
+  "privacy": {
+    "title": "Privacybeleid",
+    "updated": "Laatst bijgewerkt: 21 november 2026",
+    "intro": "PawShelf is gemaakt om je spullen op je Mac te houden. Dit beleid legt uit wat de app bewaart, wat hij verstuurt en hoe je het versturen uitzet.",
+    "sections": [
+      ["Wat op je Mac blijft", [
+        "Alles wat je op de plank legt, blijft op je Mac: verwijzingen naar je bestanden, kopieën van de afbeeldingen, tekst en weblinks die je neerzet, je klembordgeschiedenis en je instellingen. Ze worden bewaard in de sandbox van de app. We hebben geen servers die ze ontvangen en kunnen ze niet zien."
+      ]],
+      ["Anonieme crashrapporten en gebruiksstatistieken", [
+        "Om crashes te vinden en te zien welke functies worden gebruikt, stuurt de app anonieme rapporten via Google Firebase (Crashlytics en Google Analytics for Firebase). Een rapport bevat gebeurtenisnamen zoals 'onderdelen toegevoegd', aantallen, instellingswaarden, crashgegevens, de appversie, de macOS-versie en het Mac-model. Firebase geeft de app-installatie ook een willekeurige identificatiecode.",
+        "Rapporten bevatten nooit bestandsnamen, mappaden, links, paginatitels, gekopieerde tekst of iets anders dat je op de plank legt.",
+        "Versturen staat aan wanneer je de app voor het eerst opent. Om het uit te zetten, ga je naar Instellingen › Algemeen en zet je 'Stuur anonieme crashrapporten en gebruiksstatistieken' uit. Google beschrijft hoe het met deze gegevens omgaat op {firebase} en {google}."
+      ]],
+      ["Titels en symbolen van links", [
+        "Als je een weblink toevoegt, laadt de app die pagina vanaf je Mac om de titel en het symbool te tonen, zoals een browser zou doen. De website ziet een gewoon bezoek. Om dit uit te zetten, ga je naar Instellingen › Geavanceerd en zet je 'Toon titels en symbolen van links (haalt de pagina op)' uit."
+      ]],
+      ["Woorden in afbeeldingen", [
+        "Woorden in afbeeldingen worden herkend met de tekstherkenning van Apple op het apparaat zelf. Afbeeldingen worden nergens naartoe geüpload. Om dit uit te zetten, ga je naar Instellingen › Geavanceerd en zet je 'Zoek naar woorden in afbeeldingen (verwerkt op deze Mac)' uit."
+      ]],
+      ["Klembordgeschiedenis", [
+        "De klembordgeschiedenis bewaart je laatste 50 kopieën op je Mac. Kopieën die wachtwoordbeheerders als privé markeren, worden niet vastgelegd. Om het uit te zetten, open je Instellingen en zet je 'Bewaar een geschiedenis van wat je kopieert' uit."
+      ]],
+      ["Wat we niet doen", [
+        "Geen accounts, geen advertenties, geen verkoop of delen van je gegevens voor advertenties en geen tracking via andere apps of websites. PawShelf vraagt niet om toegang tot Toegankelijkheid of Schermopname."
+      ]],
+      ["Deze website", [
+        "Deze website plaatst geen cookies, gebruikt geen analysetools en laadt niets van andere sites. De hostingprovider kan gangbare serverlogboeken bijhouden."
+      ]],
+      ["Contact", [
+        "Vragen over privacy: {email}. Als dit beleid verandert, zie je aan de datum bovenaan welke versie de nieuwste is."
+      ]]
+    ],
+    "note": "Dit beleid is in het Engels geschreven. Als een vertaling afwijkt van de Engelse versie, geldt de Engelse versie."
+  },
+
+  "support": {
+    "title": "Ondersteuning",
+    "intro": "Mail naar {email} en we helpen je. Vermeld je macOS-versie en wat je aan het doen was toen het probleem optrad.",
+    "faq_h2": "Veelgestelde vragen",
+    "faq": [
+      ["Ik zie de tab niet.", "Klik op het pootjessymbool in de menubalk en kies 'Toon tab'. Verdwijnt de tab alleen als een app schermvullend is, ga dan naar Instellingen › Tab en plank en zet 'Verberg de tab als een app schermvullend is' uit."],
+      ["Verplaatst of wijzigt PawShelf mijn bestanden?", "Een bestand op de plank leggen verplaatst het niet. De plank onthoudt een verwijzing en het origineel blijft waar het is. Als je een onderdeel een andere naam geeft, verandert alleen de naam op de plank. Als het origineel wordt verplaatst of verwijderd, laat de plank dat zien."],
+      ["Ik heb per ongeluk iets verwijderd.", "Open de plank, klik op de knop ⋯ en kies 'Recent verwijderd'. Dezelfde lijst staat in het menu van het pootjessymbool in de menubalk."],
+      ["Waarom vraagt PawShelf niet om toegang tot Toegankelijkheid?", "Het merkt sleepacties op via standaard macOS-gebeurtenissen waarvoor geen speciale toestemming nodig is. Het heeft geen toegang tot je toetsenbord of je scherm."],
+      ["Hoe zet ik crashrapporten en gebruiksstatistieken uit?", "Ga naar Instellingen › Algemeen en zet 'Stuur anonieme crashrapporten en gebruiksstatistieken' uit. In het privacybeleid staat precies wat er wordt verstuurd."],
+      ["Hoe verwijder ik PawShelf?", "Klik op het pootjessymbool in de menubalk, kies 'Stop PawShelf' en sleep PawShelf vervolgens uit de map Apps naar de prullenmand."]
+    ]
+  }
+}

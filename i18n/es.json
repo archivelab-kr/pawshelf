@@ -1,0 +1,96 @@
+{
+  "lang_name": "Español",
+  "title": "PawShelf: un estante para arrastrar y soltar en tu Mac, cuidado por un pequeño amigo",
+  "description": "Un pequeño personaje se asoma desde el borde de la pantalla de tu Mac y guarda archivos, carpetas, imágenes, enlaces y texto mientras cambias de app.",
+  "nav_home": "Inicio",
+  "nav_support": "Soporte",
+  "nav_privacy": "Política de privacidad",
+  "language": "Idioma",
+
+  "hero_h1": "Déjaselo al gato. Recógelo después.",
+  "hero_p": "PawShelf es un estante para tu Mac. Un pequeño personaje se asoma desde el borde de la pantalla y guarda archivos, carpetas, imágenes, enlaces y texto mientras cambias de app.",
+  "cta_soon": "Muy pronto en el Mac App Store",
+  "cta_download": "Descargar en el Mac App Store",
+  "requirements": "Para macOS 14 o posterior, en Mac con Apple silicon e Intel.",
+
+  "demo_label": "Así se ve PawShelf en tu pantalla",
+  "video_pause": "Pausar vídeo",
+  "video_play": "Reproducir vídeo",
+
+  "how_h2": "Cómo funciona",
+  "steps": [
+    ["Suéltalo en la pestaña", "Arrastra lo que quieras hasta el personaje del borde de la pantalla. ¿Te queda lejos? Agita el cursor mientras arrastras y el estante se abrirá justo al lado."],
+    ["Sigue con lo tuyo", "Cambia de app, de Space o de ventana a pantalla completa. La pestaña sigue en el borde y tus ítems siguen ahí después de reiniciar."],
+    ["Arrástralo fuera", "Suelta los ítems en el Finder, Mail, un chat o un formulario de subida. Selecciona varios para sacarlos a la vez."]
+  ],
+
+  "chars_h2": "Elige quién guarda tus cosas",
+  "chars_p": "Doce personajes, cada uno con su propia manera de guardar las cosas. Algunas costumbres hacen un trabajo de verdad: los mofletes del hámster muestran lo lleno que está el estante, la ardilla te avisa de los ítems olvidados y el hielo del pingüino derrite los ítems que ya no necesitas.",
+  "chars_hint": "Pasa el puntero por una pegatina para saludar.",
+
+  "features_h2": "Todo lo que un estante debe hacer",
+  "features": [
+    ["Historial del portapapeles", "Tus últimas 50 copias, a mano en el estante. Las copias que los gestores de contraseñas marcan como privadas nunca se guardan."],
+    ["Recopilar archivos nuevos", "Elige una carpeta, como Capturas o Descargas, y los archivos nuevos aparecerán solos en el estante."],
+    ["Buscar dentro de imágenes", "Encuentra una captura por las palabras que contiene. El texto se reconoce en tu Mac."],
+    ["Títulos e iconos de enlaces", "Los enlaces muestran el título y el icono de la página, no solo una dirección."],
+    ["Quitados recientemente", "¿Quitaste algo por error? Recupéralo desde el menú ⋯ del estante."],
+    ["Previsualizar y compartir", "Pulsa la barra espaciadora para usar Vista Rápida o envía ítems por AirDrop y Mensajes."],
+    ["Colecciones", "Agrupa ítems relacionados en colecciones y muestra una cada vez."],
+    ["En todos los Spaces", "La pestaña te acompaña en todos los Spaces y queda por encima de las apps a pantalla completa, en el borde izquierdo o derecho."],
+    ["Lista para VoiceOver", "Todos los botones e ítems del estante tienen una etiqueta de VoiceOver."]
+  ],
+
+  "promise_h2": "Nada que permitir en Ajustes del Sistema",
+  "promise_p": "PawShelf no pide permiso de Accesibilidad ni de Grabación de pantalla. Funciona dentro del App Sandbox y solo abre lo que tú le das. Lo que pones en el estante se queda en tu Mac.",
+  "promise_link": "Leer la política de privacidad",
+
+  "privacy": {
+    "title": "Política de privacidad",
+    "updated": "Última actualización: 21 de noviembre de 2026",
+    "intro": "PawShelf está hecho para que tus cosas se queden en tu Mac. Esta política explica qué guarda la app, qué envía y cómo desactivar el envío.",
+    "sections": [
+      ["Lo que se queda en tu Mac", [
+        "Todo lo que pones en el estante se queda en tu Mac: los enlaces a tus archivos, las copias de las imágenes, textos y enlaces web que sueltas, tu historial del portapapeles y tus ajustes. Se guardan dentro del sandbox de la app. No tenemos servidores que los reciban y no podemos verlos."
+      ]],
+      ["Informes de fallos y estadísticas de uso anónimos", [
+        "Para encontrar fallos y saber qué funciones se usan, la app envía informes anónimos a través de Google Firebase (Crashlytics y Google Analytics for Firebase). Un informe contiene nombres de eventos como «ítems añadidos», recuentos, valores de ajustes, detalles de fallos, la versión de la app, la versión de macOS y el modelo de Mac. Firebase también asigna un identificador aleatorio a la instalación de la app.",
+        "Los informes nunca incluyen nombres de archivo, rutas de carpetas, enlaces, títulos de páginas, texto copiado ni nada más que pongas en el estante.",
+        "El envío está activado cuando abres la app por primera vez. Para desactivarlo, ve a Ajustes › General y desactiva «Enviar informes de fallos y estadísticas de uso anónimos». Google explica cómo trata estos datos en {firebase} y {google}."
+      ]],
+      ["Títulos e iconos de enlaces", [
+        "Cuando añades un enlace web, la app carga esa página desde tu Mac para mostrar su título e icono, como haría un navegador. El sitio web ve una visita normal. Para desactivarlo, ve a Ajustes › Avanzado y desactiva «Mostrar títulos e iconos de los enlaces (carga la página)»."
+      ]],
+      ["Palabras en imágenes", [
+        "Las palabras de las imágenes se reconocen con el reconocimiento de texto de Apple en el propio dispositivo. Las imágenes no se suben a ningún sitio. Para desactivarlo, ve a Ajustes › Avanzado y desactiva «Buscar palabras dentro de imágenes (se procesa en este Mac)»."
+      ]],
+      ["Historial del portapapeles", [
+        "El historial del portapapeles guarda tus últimas 50 copias en tu Mac. Las copias que los gestores de contraseñas marcan como privadas no se registran. Para desactivarlo, abre Ajustes y desactiva «Guardar un historial de lo que copias»."
+      ]],
+      ["Lo que no hacemos", [
+        "Sin cuentas, sin anuncios, sin vender ni compartir tus datos con fines publicitarios y sin rastrearte en otras apps o sitios web. PawShelf no pide permiso de Accesibilidad ni de Grabación de pantalla."
+      ]],
+      ["Este sitio web", [
+        "Este sitio web no usa cookies, no ejecuta herramientas de análisis y no carga nada de otros sitios. El proveedor de alojamiento puede guardar registros habituales del servidor."
+      ]],
+      ["Contacto", [
+        "Preguntas sobre privacidad: {email}. Si esta política cambia, la fecha de arriba indica la versión más reciente."
+      ]]
+    ],
+    "note": "Esta política se redactó en inglés. Si una traducción difiere de la versión en inglés, prevalece la versión en inglés."
+  },
+
+  "support": {
+    "title": "Soporte",
+    "intro": "Escribe a {email} y te ayudaremos. Indica tu versión de macOS y qué estabas haciendo cuando ocurrió el problema.",
+    "faq_h2": "Preguntas frecuentes",
+    "faq": [
+      ["No veo la pestaña.", "Haz clic en el icono de la huella en la barra de menús y elige «Mostrar la pestaña». Si la pestaña solo desaparece cuando una app está a pantalla completa, ve a Ajustes › Pestaña y estante y desactiva «Ocultar la pestaña cuando una app esté en pantalla completa»."],
+      ["¿PawShelf mueve o cambia mis archivos?", "Poner un archivo en el estante no lo mueve. El estante guarda un enlace y el original se queda donde está. Cambiar el nombre de un ítem solo cambia su nombre en el estante. Si el original se mueve o se elimina, el estante lo indica."],
+      ["He quitado algo por error.", "Abre el estante, haz clic en el botón ⋯ y elige «Quitados recientemente». La misma lista está en el menú del icono de la huella en la barra de menús."],
+      ["¿Por qué PawShelf no pide permiso de Accesibilidad?", "Detecta los arrastres mediante eventos estándar de macOS que no necesitan permisos especiales. No tiene acceso a tu teclado ni a tu pantalla."],
+      ["¿Cómo desactivo los informes de fallos y las estadísticas de uso?", "Ve a Ajustes › General y desactiva «Enviar informes de fallos y estadísticas de uso anónimos». La política de privacidad detalla exactamente qué se envía."],
+      ["¿Cómo desinstalo PawShelf?", "Haz clic en el icono de la huella en la barra de menús, elige «Salir de PawShelf» y mueve PawShelf de la carpeta Aplicaciones a la Papelera."]
+    ]
+  }
+}

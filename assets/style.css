@@ -1,0 +1,209 @@
+/* PawShelf site. Colors come from the app: sticker ink #3A2E2A, the icon's peach, and a sticker-liner blue. */
+:root {
+  --ink: #3A2E2A;
+  --ink-2: #6E5D55;
+  --paper: #FFFFFF;
+  --peach: #FFE6CF;
+  --peach-2: #FFC08C;
+  --liner: #EAF2F7;
+  --liner-dot: #CFDDE7;
+  --blush: #FF8FA3;
+  --line: rgba(58, 46, 42, .14);
+  /* SF Pro Rounded in Safari; other browsers get the bold system face rather than a thin rounded fallback. */
+  --display: ui-rounded, "SF Pro Rounded", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo", "PingFang SC", sans-serif;
+  --bezel: #3A2E2A;
+  --body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo", "Hiragino Sans", "PingFang SC", "Noto Sans", sans-serif;
+  --wrap: 1120px;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #F6EAE2;
+    --ink-2: #CDBCB2;
+    --paper: #211A17;
+    --peach: #3A2920;
+    --peach-2: #5B3A27;
+    --liner: #182026;
+    --liner-dot: #2A353D;
+    --line: rgba(246, 234, 226, .16);
+    --bezel: #120D0B;
+  }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 17px/1.6 var(--body);
+}
+:lang(ko) { word-break: keep-all; }
+:lang(ja), :lang(zh-Hans) { line-break: strict; }
+
+img { display: block; max-width: 100%; }
+a { color: inherit; text-decoration-thickness: 1.5px; text-underline-offset: 3px; }
+a:hover { text-decoration-color: var(--blush); }
+:focus-visible { outline: 3px solid var(--blush); outline-offset: 3px; border-radius: 6px; }
+svg { display: block; }
+
+.sr {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap;
+}
+
+h1, h2, h3 { font-family: var(--display); line-height: 1.15; margin: 0; text-wrap: balance; }
+h2 { font-size: clamp(1.9rem, 3.6vw, 2.75rem); font-weight: 800; letter-spacing: -.01em; }
+h3 { font-size: 1.2rem; font-weight: 700; }
+p { margin: 0; }
+:lang(ko) h1, :lang(ko) h2, :lang(ja) h1, :lang(ja) h2, :lang(zh-Hans) h1, :lang(zh-Hans) h2 { letter-spacing: 0; }
+
+/* Header */
+.top {
+  max-width: var(--wrap); height: 72px; margin: 0 auto; padding: 0 16px;
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+}
+.brand {
+  display: flex; align-items: center; gap: 10px;
+  font: 800 1.25rem/1 var(--display); text-decoration: none;
+}
+.top-nav { display: flex; align-items: center; gap: 20px; font-size: .95rem; }
+.top-nav > a { text-decoration: none; }
+.top-nav > a:hover { text-decoration: underline; }
+.lang { position: relative; display: flex; align-items: center; gap: 6px; }
+.lang svg { width: 18px; height: 18px; }
+.lang select {
+  font: inherit; color: inherit; background: transparent;
+  border: 1.5px solid var(--line); border-radius: 999px; padding: 4px 10px;
+  max-width: 9.5rem;
+}
+
+/* Hero: the page opens on a screen with the cat peeking from its edge, as in the app. */
+/* The header sits on the hero's peach: the hero slides up under it. */
+.top.on-hero { position: relative; z-index: 1; }
+.hero { background: linear-gradient(165deg, var(--peach) 10%, var(--peach-2)); margin-top: -72px; padding-top: 72px; }
+.hero-in {
+  max-width: var(--wrap); margin: 0 auto; padding: 56px 16px 72px;
+}
+.hero-copy { max-width: 44rem; }
+.hero h1 { font-size: clamp(2.5rem, 5.4vw, 4.4rem); font-weight: 800; letter-spacing: -.02em; line-height: 1.04; }
+/* CJK headlines carry an explicit break between the two clauses, sized so each clause fits one line. */
+:lang(ko) .hero h1, :lang(ja) .hero h1, :lang(zh-Hans) .hero h1 { font-size: clamp(2.1rem, 4vw, 3.2rem); line-height: 1.2; }
+:lang(ja) h1, :lang(ja) h2, :lang(ja) h3 { word-break: auto-phrase; }
+.hero .lead { margin-top: 22px; font-size: 1.15rem; max-width: 34em; color: var(--ink-2); }
+.cta {
+  display: inline-block; margin-top: 30px;
+  background: var(--ink); color: var(--paper);
+  font: 700 1.05rem/1 var(--display); text-decoration: none;
+  padding: 16px 26px; border-radius: 999px;
+}
+.cta:hover { background: color-mix(in srgb, var(--ink) 88%, var(--blush)); }
+/* "Coming soon": the dashed outline of a sticker that isn't cut out yet. */
+.cta.is-soon { background: transparent; color: var(--ink); border: 2px dashed var(--ink); padding: 14px 24px; }
+.req { margin-top: 14px; font-size: .9rem; color: var(--ink-2); }
+
+/* The real app, recorded: a screen with a bezel in the ink of the stickers' outlines. */
+.screen {
+  position: relative; margin: 56px 0 0;
+  border: 10px solid var(--bezel); border-radius: 22px; overflow: hidden;
+  background: var(--bezel);
+  box-shadow: 0 40px 80px -30px rgba(58, 46, 42, .5);
+}
+.screen video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; }
+.video-toggle {
+  position: absolute; right: 14px; bottom: 14px;
+  width: 40px; height: 40px; display: grid; place-items: center;
+  border: 0; border-radius: 50%; cursor: pointer;
+  background: rgba(20, 16, 14, .55); color: #fff;
+  -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+}
+.video-toggle svg { width: 18px; height: 18px; }
+.video-toggle .i-play, .video-toggle.is-paused .i-pause { display: none; }
+.video-toggle.is-paused .i-play { display: block; }
+
+/* How it works: a real sequence, so it's numbered. The numbers are little stickers. */
+.how, .features { max-width: var(--wrap); margin: 0 auto; padding: 96px 16px; }
+.steps { list-style: none; counter-reset: step; margin: 40px 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px; }
+.steps li { counter-increment: step; position: relative; }
+.steps img { display: block; width: 100%; height: auto; border-radius: 14px; margin-bottom: 22px; box-shadow: 0 0 0 1px var(--line), 0 18px 36px -20px rgba(58, 46, 42, .45); }
+/* The number sticks onto the corner of the frame, like a sticker. */
+.steps li::before {
+  content: counter(step);
+  position: absolute; top: -14px; left: -10px;
+  display: grid; place-items: center; width: 44px; height: 44px;
+  font: 800 1.3rem/1 var(--display); color: #3A2E2A;
+  background: var(--blush); border-radius: 50%;
+  box-shadow: 0 0 0 3.5px #fff, 0 3px 8px rgba(58, 46, 42, .25);
+}
+.steps p, .feature-list p { margin-top: 8px; color: var(--ink-2); max-width: 32em; }
+
+/* Characters: a sticker sheet. Each one peeks from a screen edge (the dark line), like the real tab. */
+.pals {
+  background-color: var(--liner);
+  background-image: radial-gradient(var(--liner-dot) 1.2px, transparent 1.6px);
+  background-size: 20px 20px;
+}
+.pals-in { max-width: var(--wrap); margin: 0 auto; padding: 96px 16px; }
+.section-lead { margin-top: 16px; max-width: 40em; font-size: 1.08rem; color: var(--ink-2); }
+.pal-grid { list-style: none; margin: 48px 0 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 44px 32px; }
+.pal-art { position: relative; height: 120px; border-left: 4px solid var(--ink); margin-bottom: 14px; }
+.pal-art img { position: absolute; left: 0; top: 0; height: 120px; width: auto; transition: opacity .12s; }
+.pal-art .alt { opacity: 0; }
+.pal:hover .pal-art img { opacity: 0; }
+.pal:hover .pal-art .alt { opacity: 1; }
+.pal h3 { font-size: 1.1rem; }
+.pal p { margin-top: 4px; font-size: .95rem; color: var(--ink-2); }
+.pals-hint { margin-top: 44px; font: 600 .95rem/1.4 var(--display); color: var(--ink-2); }
+
+.feature-list { list-style: none; margin: 40px 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 36px 40px; }
+.feature-list li { border-top: 1.5px solid var(--line); padding-top: 18px; }
+.feature-list h3 { font-size: 1.15rem; }
+
+/* The promise band */
+.promise { background: #3A2E2A; color: #FFF1E6; }
+.promise-in { max-width: var(--wrap); margin: 0 auto; padding: 88px 16px; }
+.promise h2 { max-width: 16em; }
+.promise p { margin-top: 18px; max-width: 38em; font-size: 1.1rem; color: #E9D6C9; }
+.promise a { color: #FFF1E6; font-weight: 600; }
+
+/* Footer */
+.foot { border-top: 1.5px solid var(--line); }
+.foot-in {
+  max-width: var(--wrap); margin: 0 auto; padding: 40px 16px 48px;
+  display: grid; grid-template-columns: auto 1fr; gap: 18px 40px; align-items: start;
+  font-size: .9rem; color: var(--ink-2);
+}
+.foot-brand { display: flex; align-items: center; gap: 8px; font: 800 1.05rem/1 var(--display); color: var(--ink); }
+.foot-links, .foot-langs { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 18px; }
+.foot-langs { grid-column: 2; }
+.foot-copy { grid-column: 1; grid-row: 2; }
+
+/* Privacy and support */
+.doc { max-width: 44rem; margin: 0 auto; padding: 48px 16px 96px; }
+.doc h1 { font-size: clamp(2.2rem, 5vw, 3.2rem); font-weight: 800; }
+.doc .updated { margin-top: 10px; font-size: .9rem; color: var(--ink-2); }
+.doc .lead { margin-top: 24px; font-size: 1.15rem; }
+.doc h2 { font-size: 1.5rem; margin-top: 48px; }
+.doc h3 { font-size: 1.15rem; margin-top: 32px; }
+.doc p { margin-top: 12px; }
+.doc .note { margin-top: 48px; font-size: .9rem; color: var(--ink-2); }
+
+@media (max-width: 900px) {
+  .hero-in { padding-top: 32px; }
+  .steps, .feature-list { grid-template-columns: 1fr; gap: 32px; }
+  .pal-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .how, .features, .pals-in { padding-top: 72px; padding-bottom: 72px; }
+}
+@media (max-width: 600px) {
+  body { font-size: 16px; }
+  .screen { margin-top: 40px; border-width: 6px; border-radius: 14px; }
+  .pal-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 36px 20px; }
+  .top-nav > a { display: none; }
+  .foot-in { grid-template-columns: 1fr; }
+  .foot-langs, .foot-copy { grid-column: 1; grid-row: auto; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}

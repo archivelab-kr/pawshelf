@@ -1,0 +1,96 @@
+{
+  "lang_name": "Deutsch",
+  "title": "PawShelf: ein Ablageregal für deinen Mac, gehütet von einem kleinen Freund",
+  "description": "Eine kleine Figur schaut vom Rand deines Mac-Bildschirms hervor und hält Dateien, Ordner, Bilder, Links und Text bereit, während du zwischen Apps wechselst.",
+  "nav_home": "Start",
+  "nav_support": "Support",
+  "nav_privacy": "Datenschutzerklärung",
+  "language": "Sprache",
+
+  "hero_h1": "Gib es der Katze. Hol es dir später.",
+  "hero_p": "PawShelf ist ein Regal für deinen Mac. Eine kleine Figur schaut vom Bildschirmrand hervor und hält Dateien, Ordner, Bilder, Links und Text bereit, während du zwischen Apps wechselst.",
+  "cta_soon": "Bald im Mac App Store",
+  "cta_download": "Im Mac App Store laden",
+  "requirements": "Für macOS 14 oder neuer, auf Macs mit Apple Chip und Intel.",
+
+  "demo_label": "So sieht PawShelf auf deinem Bildschirm aus",
+  "video_pause": "Video anhalten",
+  "video_play": "Video abspielen",
+
+  "how_h2": "So funktioniert's",
+  "steps": [
+    ["Auf den Tab ziehen", "Zieh irgendetwas auf die Figur am Bildschirmrand. Zu weit weg? Schüttle beim Ziehen den Zeiger, und das Regal öffnet sich direkt daneben."],
+    ["Weiterarbeiten", "Wechsle Apps, Spaces und Vollbildfenster. Der Tab bleibt am Rand, und deine Objekte sind auch nach einem Neustart noch da."],
+    ["Herausziehen", "Leg Objekte im Finder, in Mail, in einem Chat oder in einem Upload-Formular ab. Wähle mehrere aus, um sie zusammen herauszuziehen."]
+  ],
+
+  "chars_h2": "Such dir aus, wer auf deine Sachen aufpasst",
+  "chars_p": "Zwölf Figuren, jede mit ihrer eigenen Art, Dinge aufzubewahren. Manche Eigenheiten sind richtig nützlich: Die Backen des Hamsters zeigen, wie voll das Regal ist, das Eichhörnchen weist auf vergessene Objekte hin, und das Eis des Pinguins schmilzt Objekte weg, die du nicht mehr brauchst.",
+  "chars_hint": "Zeig auf einen Sticker, um Hallo zu sagen.",
+
+  "features_h2": "Alles, was ein Regal können sollte",
+  "features": [
+    ["Verlauf der Zwischenablage", "Deine letzten 50 Kopien liegen direkt im Regal. Kopien, die Passwortmanager als privat markieren, werden nie gespeichert."],
+    ["Neue Dateien sammeln", "Wähle einen Ordner wie Bildschirmfotos oder Downloads, und neue Dateien landen von selbst im Regal."],
+    ["In Bildern suchen", "Finde ein Bildschirmfoto über die Wörter darin. Der Text wird auf deinem Mac erkannt."],
+    ["Linktitel und Symbole", "Links zeigen den Titel und das Symbol der Seite statt nur einer Adresse."],
+    ["Zuletzt entfernt", "Versehentlich entfernt? Hol es über das ⋯-Menü im Regal zurück."],
+    ["Vorschau und Teilen", "Drück die Leertaste für die Übersicht oder schick Objekte per AirDrop und Nachrichten."],
+    ["Sammlungen", "Fasse zusammengehörige Objekte in Sammlungen zusammen und zeig jeweils eine an."],
+    ["In jedem Space", "Der Tab ist in jedem Space da und liegt über Vollbild-Apps, am linken oder rechten Rand."],
+    ["Bereit für VoiceOver", "Jede Schaltfläche und jedes Objekt im Regal hat eine VoiceOver-Beschriftung."]
+  ],
+
+  "promise_h2": "Nichts in den Systemeinstellungen freizugeben",
+  "promise_p": "PawShelf fragt nicht nach Zugriff auf Bedienungshilfen oder Bildschirmaufnahme. Es läuft in der App-Sandbox und öffnet nur, was du ihm gibst. Was du ins Regal legst, bleibt auf deinem Mac.",
+  "promise_link": "Datenschutzerklärung lesen",
+
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "updated": "Zuletzt aktualisiert: 21. November 2026",
+    "intro": "PawShelf ist dafür gemacht, deine Sachen auf deinem Mac zu lassen. Diese Erklärung beschreibt, was die App speichert, was sie sendet und wie du das Senden ausschaltest.",
+    "sections": [
+      ["Was auf deinem Mac bleibt", [
+        "Alles, was du ins Regal legst, bleibt auf deinem Mac: Verweise auf deine Dateien, Kopien der Bilder, Texte und Weblinks, die du ablegst, dein Verlauf der Zwischenablage und deine Einstellungen. Sie werden in der Sandbox der App gespeichert. Wir betreiben keine Server, die sie empfangen, und können sie nicht sehen."
+      ]],
+      ["Anonyme Absturzberichte und Nutzungsstatistiken", [
+        "Um Abstürze zu finden und zu erfahren, welche Funktionen genutzt werden, sendet die App anonyme Berichte über Google Firebase (Crashlytics und Google Analytics for Firebase). Ein Bericht enthält Ereignisnamen wie „Objekte hinzugefügt“, Anzahlen, Einstellungswerte, Absturzdetails, die App-Version, die macOS-Version und das Mac-Modell. Firebase vergibt außerdem eine zufällige Kennung für die App-Installation.",
+        "Berichte enthalten niemals Dateinamen, Ordnerpfade, Links, Seitentitel, kopierten Text oder sonst etwas, das du ins Regal legst.",
+        "Das Senden ist beim ersten Öffnen der App eingeschaltet. Zum Ausschalten öffne Einstellungen › Allgemein und deaktiviere „Anonyme Absturzberichte und Nutzungsstatistiken senden“. Wie Google mit diesen Daten umgeht, steht unter {firebase} und {google}."
+      ]],
+      ["Linktitel und Symbole", [
+        "Wenn du einen Weblink hinzufügst, lädt die App die Seite wie ein Browser von deinem Mac, um Titel und Symbol anzuzeigen. Die Website sieht einen gewöhnlichen Besuch. Zum Ausschalten öffne Einstellungen › Erweitert und deaktiviere „Linktitel und Symbole anzeigen (ruft die Seite ab)“."
+      ]],
+      ["Text in Bildern", [
+        "Text in Bildern wird mit Apples Texterkennung auf dem Gerät gelesen. Bilder werden nirgendwohin hochgeladen. Zum Ausschalten öffne Einstellungen › Erweitert und deaktiviere „Text in Bildern durchsuchen (Verarbeitung auf diesem Mac)“."
+      ]],
+      ["Verlauf der Zwischenablage", [
+        "Der Verlauf der Zwischenablage speichert deine letzten 50 Kopien auf deinem Mac. Kopien, die Passwortmanager als privat markieren, werden nicht gespeichert. Zum Ausschalten öffne die Einstellungen und deaktiviere „Kopierte Inhalte im Verlauf sichern“."
+      ]],
+      ["Was wir nicht tun", [
+        "Keine Konten, keine Werbung, kein Verkauf und keine Weitergabe deiner Daten zu Werbezwecken und kein Tracking über andere Apps oder Websites hinweg. PawShelf fragt nicht nach Zugriff auf Bedienungshilfen oder Bildschirmaufnahme."
+      ]],
+      ["Diese Website", [
+        "Diese Website setzt keine Cookies, nutzt keine Analysetools und lädt nichts von anderen Websites. Der Hosting-Anbieter speichert möglicherweise übliche Server-Logs."
+      ]],
+      ["Kontakt", [
+        "Fragen zum Datenschutz: {email}. Wenn sich diese Erklärung ändert, zeigt das Datum oben die neueste Fassung."
+      ]]
+    ],
+    "note": "Diese Erklärung wurde auf Englisch verfasst. Weicht eine Übersetzung von der englischen Fassung ab, gilt die englische Fassung."
+  },
+
+  "support": {
+    "title": "Support",
+    "intro": "Schreib an {email}, und wir helfen dir. Nenn uns bitte deine macOS-Version und was du gerade gemacht hast, als das Problem auftrat.",
+    "faq_h2": "Häufige Fragen",
+    "faq": [
+      ["Ich sehe den Tab nicht.", "Klick auf das Pfotensymbol in der Menüleiste und wähle „Tab einblenden“. Verschwindet der Tab nur, wenn eine App im Vollbildmodus läuft, öffne Einstellungen › Tab und Regal und deaktiviere „Tab ausblenden, wenn eine App im Vollbildmodus läuft“."],
+      ["Verschiebt oder verändert PawShelf meine Dateien?", "Wenn du eine Datei ins Regal legst, wird sie nicht verschoben. Das Regal merkt sich nur einen Verweis, und das Original bleibt, wo es ist. Wenn du ein Objekt umbenennst, ändert sich nur sein Name im Regal. Wird das Original verschoben oder gelöscht, zeigt das Regal das an."],
+      ["Ich habe versehentlich etwas entfernt.", "Öffne das Regal, klick auf ⋯ und wähle „Zuletzt entfernt“. Dieselbe Liste findest du im Menü des Pfotensymbols in der Menüleiste."],
+      ["Warum fragt PawShelf nicht nach Zugriff auf Bedienungshilfen?", "Es erkennt Ziehvorgänge über normale macOS-Ereignisse, die keine besondere Berechtigung brauchen. Auf deine Tastatureingaben und deinen Bildschirm hat es keinen Zugriff."],
+      ["Wie schalte ich Absturzberichte und Nutzungsstatistiken aus?", "Öffne Einstellungen › Allgemein und deaktiviere „Anonyme Absturzberichte und Nutzungsstatistiken senden“. In der Datenschutzerklärung steht genau, was gesendet wird."],
+      ["Wie deinstalliere ich PawShelf?", "Klick auf das Pfotensymbol in der Menüleiste, wähle „PawShelf beenden“ und bewege PawShelf dann aus dem Ordner „Programme“ in den Papierkorb."]
+    ]
+  }
+}

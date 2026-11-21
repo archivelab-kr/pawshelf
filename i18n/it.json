@@ -1,0 +1,96 @@
+{
+  "lang_name": "Italiano",
+  "title": "PawShelf: una mensola trascina e rilascia per il tuo Mac, custodita da un piccolo amico",
+  "description": "Un piccolo personaggio fa capolino dal bordo dello schermo del Mac e tiene file, cartelle, immagini, link e testo mentre passi da un’app all’altra.",
+  "nav_home": "Home",
+  "nav_support": "Supporto",
+  "nav_privacy": "Informativa sulla privacy",
+  "language": "Lingua",
+
+  "hero_h1": "Lascialo al gatto. Riprendilo dopo.",
+  "hero_p": "PawShelf è una mensola per il tuo Mac. Un piccolo personaggio fa capolino dal bordo dello schermo e tiene file, cartelle, immagini, link e testo mentre passi da un’app all’altra.",
+  "cta_soon": "Presto sul Mac App Store",
+  "cta_download": "Scarica dal Mac App Store",
+  "requirements": "Per macOS 14 o versioni successive, su Mac con Apple silicon e Intel.",
+
+  "demo_label": "Come appare PawShelf sullo schermo",
+  "video_pause": "Metti in pausa il video",
+  "video_play": "Riproduci il video",
+
+  "how_h2": "Come funziona",
+  "steps": [
+    ["Lascialo sulla linguetta", "Trascina qualsiasi cosa sul personaggio al bordo dello schermo. Troppo lontano dal bordo? Scuoti il puntatore mentre trascini e la mensola si apre proprio lì accanto."],
+    ["Continua a lavorare", "Cambia app, Spaces o finestre a tutto schermo. La linguetta resta sul bordo e i tuoi elementi sono ancora lì anche dopo un riavvio."],
+    ["Trascinalo fuori", "Rilascia gli elementi nel Finder, in Mail, in una chat o in un modulo di caricamento. Selezionane più di uno per trascinarli fuori insieme."]
+  ],
+
+  "chars_h2": "Scegli chi custodisce le tue cose",
+  "chars_p": "Dodici personaggi, ognuno con il suo modo di conservare le cose. Alcune abitudini sono davvero utili: le guance del criceto mostrano quanto è piena la mensola, lo scoiattolo ti segnala gli elementi dimenticati e il ghiaccio del pinguino scioglie gli elementi che non ti servono più.",
+  "chars_hint": "Passa il puntatore su un adesivo per salutare.",
+
+  "features_h2": "Tutto quello che una mensola deve fare",
+  "features": [
+    ["Cronologia degli appunti", "Le tue ultime 50 copie, a portata di mano sulla mensola. Le copie che i gestori di password segnano come private non vengono mai registrate."],
+    ["Raccogli i nuovi file", "Scegli una cartella come Istantanee o Download e i nuovi file arrivano da soli sulla mensola."],
+    ["Cerca nelle immagini", "Trova un’istantanea grazie alle parole che contiene. Il testo viene riconosciuto sul tuo Mac."],
+    ["Titoli e icone dei link", "I link mostrano il titolo e l’icona della pagina, non solo un indirizzo."],
+    ["Rimossi di recente", "Hai rimosso qualcosa per errore? Recuperalo dal menu ⋯ della mensola."],
+    ["Anteprima e condivisione", "Premi la barra spaziatrice per Visualizzazione rapida o invia gli elementi con AirDrop e Messaggi."],
+    ["Raccolte", "Riunisci gli elementi correlati in raccolte e mostrane una alla volta."],
+    ["In tutti gli Spaces", "La linguetta ti segue in tutti gli Spaces e resta sopra le app a tutto schermo, sul bordo sinistro o destro."],
+    ["Pronta per VoiceOver", "Ogni pulsante ed elemento della mensola ha un’etichetta VoiceOver."]
+  ],
+
+  "promise_h2": "Niente da autorizzare in Impostazioni di Sistema",
+  "promise_p": "PawShelf non chiede l’accesso ad Accessibilità né a Registrazione schermo. Funziona nell’App Sandbox e apre solo ciò che gli affidi. Quello che metti sulla mensola resta sul tuo Mac.",
+  "promise_link": "Leggi l’informativa sulla privacy",
+
+  "privacy": {
+    "title": "Informativa sulla privacy",
+    "updated": "Ultimo aggiornamento: 21 novembre 2026",
+    "intro": "PawShelf è pensato per lasciare le tue cose sul tuo Mac. Questa informativa spiega cosa salva l’app, cosa invia e come disattivare l’invio.",
+    "sections": [
+      ["Cosa resta sul tuo Mac", [
+        "Tutto ciò che metti sulla mensola resta sul tuo Mac: i collegamenti ai tuoi file, le copie di immagini, testi e link web che rilasci, la cronologia degli appunti e le impostazioni. Vengono salvati nella sandbox dell’app. Non gestiamo server che li ricevono e non possiamo vederli."
+      ]],
+      ["Segnalazioni anonime di arresti anomali e statistiche di utilizzo", [
+        "Per individuare gli arresti anomali e capire quali funzioni vengono usate, l’app invia segnalazioni anonime tramite Google Firebase (Crashlytics e Google Analytics for Firebase). Una segnalazione contiene nomi di eventi come «elementi aggiunti», conteggi, valori delle impostazioni, dettagli sugli arresti anomali, la versione dell’app, la versione di macOS e il modello di Mac. Firebase assegna inoltre un identificatore casuale all’installazione dell’app.",
+        "Le segnalazioni non includono mai nomi di file, percorsi di cartelle, link, titoli di pagine, testo copiato né altro che metti sulla mensola.",
+        "L’invio è attivo quando apri l’app per la prima volta. Per disattivarlo, vai in Impostazioni › Generali e disattiva «Invia in forma anonima segnalazioni di arresti anomali e statistiche di utilizzo». Google descrive come tratta questi dati su {firebase} e {google}."
+      ]],
+      ["Titoli e icone dei link", [
+        "Quando aggiungi un link web, l’app carica quella pagina dal tuo Mac per mostrarne il titolo e l’icona, come farebbe un browser. Il sito vede una normale visita. Per disattivarlo, vai in Impostazioni › Avanzate e disattiva «Mostra titoli e icone dei link (carica la pagina)»."
+      ]],
+      ["Parole nelle immagini", [
+        "Le parole nelle immagini vengono riconosciute con il riconoscimento del testo di Apple direttamente sul dispositivo. Le immagini non vengono caricate da nessuna parte. Per disattivarlo, vai in Impostazioni › Avanzate e disattiva «Cerca le parole nelle immagini (elaborazione su questo Mac)»."
+      ]],
+      ["Cronologia degli appunti", [
+        "La cronologia degli appunti conserva le tue ultime 50 copie sul tuo Mac. Le copie che i gestori di password segnano come private non vengono registrate. Per disattivarla, apri Impostazioni e disattiva «Conserva la cronologia di ciò che copi»."
+      ]],
+      ["Cosa non facciamo", [
+        "Nessun account, nessuna pubblicità, nessuna vendita o condivisione dei tuoi dati a fini pubblicitari e nessun tracciamento attraverso altre app o siti web. PawShelf non chiede l’accesso ad Accessibilità né a Registrazione schermo."
+      ]],
+      ["Questo sito web", [
+        "Questo sito web non usa cookie, non esegue strumenti di analisi e non carica nulla da altri siti. Il fornitore di hosting potrebbe conservare i normali log del server."
+      ]],
+      ["Contatti", [
+        "Domande sulla privacy: {email}. Se questa informativa cambia, la data in alto indica la versione più recente."
+      ]]
+    ],
+    "note": "Questa informativa è stata redatta in inglese. Se una traduzione differisce dalla versione inglese, prevale la versione inglese."
+  },
+
+  "support": {
+    "title": "Supporto",
+    "intro": "Scrivi a {email} e ti aiuteremo. Indica la tua versione di macOS e cosa stavi facendo quando si è verificato il problema.",
+    "faq_h2": "Domande frequenti",
+    "faq": [
+      ["Non vedo la linguetta.", "Fai clic sull’icona della zampa nella barra dei menu e scegli «Mostra la linguetta». Se la linguetta sparisce solo quando un’app è a tutto schermo, vai in Impostazioni › Linguetta e mensola e disattiva «Nascondi la linguetta quando un’app è a tutto schermo»."],
+      ["PawShelf sposta o modifica i miei file?", "Mettere un file sulla mensola non lo sposta. La mensola conserva un collegamento e l’originale resta dov’è. Rinominare un elemento cambia solo il suo nome sulla mensola. Se l’originale viene spostato o eliminato, la mensola lo segnala."],
+      ["Ho rimosso qualcosa per errore.", "Apri la mensola, fai clic sul pulsante ⋯ e scegli «Rimossi di recente». Lo stesso elenco si trova nel menu dell’icona della zampa nella barra dei menu."],
+      ["Perché PawShelf non chiede l’accesso ad Accessibilità?", "Rileva i trascinamenti tramite eventi standard di macOS che non richiedono permessi speciali. Non ha accesso alla tastiera né allo schermo."],
+      ["Come disattivo le segnalazioni di arresti anomali e le statistiche di utilizzo?", "Vai in Impostazioni › Generali e disattiva «Invia in forma anonima segnalazioni di arresti anomali e statistiche di utilizzo». L’informativa sulla privacy elenca esattamente cosa viene inviato."],
+      ["Come disinstallo PawShelf?", "Fai clic sull’icona della zampa nella barra dei menu, scegli «Esci da PawShelf» e sposta PawShelf dalla cartella Applicazioni al Cestino."]
+    ]
+  }
+}
