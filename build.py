@@ -16,6 +16,7 @@ ROOT = pathlib.Path(__file__).parent
 # Set these before publishing.
 SITE_URL = "https://archivelab-kr.github.io/pawshelf"  # GitHub Pages, like moabook; canonical/hreflang/og/sitemap
 SUPPORT_EMAIL = "archivelabapps@gmail.com"
+PRICE_USD = "4.99"  # same as App Store Connect (scripts/store/upload.py --price in the app repo)
 APP_STORE_URL = ""  # set once the app is live (apps.apple.com/app/id...); empty shows "Coming soon"
 
 # (code used in <html lang> and hreflang, folder name)
@@ -59,7 +60,7 @@ def url(slug, page):
     return f"{SITE_URL}/{slug}/" + ("" if page == "index.html" else page)
 
 
-def head(code, slug, page, title, desc):
+def head(code, slug, page, title, desc, extra=""):
     alternates = "\n".join(f'<link rel="alternate" hreflang="{c}" href="{url(s, page)}">' for c, s in LANGS)
     return f"""<!doctype html>
 <html lang="{code}">
@@ -81,9 +82,22 @@ def head(code, slug, page, title, desc):
 <link rel="icon" type="image/png" href="../assets/favicon.png">
 <link rel="apple-touch-icon" href="../assets/icon-256.png">
 <link rel="stylesheet" href="../assets/style.css">
-<script src="../assets/site.js" defer></script>
+<script src="../assets/site.js" defer></script>{extra}
 </head>
 <body>"""
+
+
+def app_jsonld(t, code, slug):
+    """schema.org SoftwareApplication for search engines (home pages only). Add aggregateRating once there are reviews."""
+    data = {"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "PawShelf",
+            "description": t["description"], "operatingSystem": "macOS 14 or later",
+            "applicationCategory": "UtilitiesApplication", "inLanguage": code, "url": url(slug, "index.html"),
+            "image": f"{SITE_URL}/assets/icon-1024.png", "screenshot": f"{SITE_URL}/assets/demo/poster-en.jpg",
+            "offers": {"@type": "Offer", "price": PRICE_USD, "priceCurrency": "USD"},
+            "publisher": {"@type": "Organization", "name": "ArchiveLab"}}
+    if APP_STORE_URL:
+        data["downloadUrl"] = APP_STORE_URL
+    return '\n<script type="application/ld+json">' + json.dumps(data, ensure_ascii=False).replace("</", "<\\/") + "</script>"
 
 
 def header(t, page):
@@ -302,7 +316,8 @@ for code, slug in LANGS:
                          header(t, "support.html") + support(t)),
     }
     for page, (title, desc, body) in pages.items():
-        (out / page).write_text(head(code, slug, page, title, desc) + body + footer(t, page), encoding="utf-8")
+        extra = app_jsonld(t, code, slug) if page == "index.html" else ""
+        (out / page).write_text(head(code, slug, page, title, desc, extra) + body + footer(t, page), encoding="utf-8")
 
 (ROOT / "index.html").write_text(root_index(), encoding="utf-8")
 (ROOT / "sitemap.xml").write_text(
