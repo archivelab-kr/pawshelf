@@ -17,7 +17,9 @@ ROOT = pathlib.Path(__file__).parent
 SITE_URL = "https://archivelab-kr.github.io/pawshelf"  # GitHub Pages, like moabook; canonical/hreflang/og/sitemap
 SUPPORT_EMAIL = "archivelabapps@gmail.com"
 PRICE_USD = "4.99"  # same as App Store Connect (scripts/store/upload.py --price in the app repo)
-APP_STORE_URL = ""  # set once the app is live (apps.apple.com/app/id...); empty shows "Coming soon"
+# Campaign link like moabook (pt = this account, ct = website, mt=12 = Mac) so App Store Connect shows installs from
+# the site; empty shows "Coming soon". Set before approval: the app goes live automatically once approved.
+APP_STORE_URL = "https://apps.apple.com/app/apple-store/id6837677780?pt=120201957&ct=website&mt=12"
 
 # (code used in <html lang> and hreflang, folder name)
 LANGS = [("en", "en"), ("ko", "ko"), ("ja", "ja"), ("zh-Hans", "zh-hans"), ("de", "de"), ("es", "es"),
